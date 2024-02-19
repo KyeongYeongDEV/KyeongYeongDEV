@@ -27,7 +27,7 @@
 <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=KyeongYeongDEV&theme=react-dark&bg_color=20232a&hide_border=true&line=58A6FF&color=58A6FF" width=94%/>
 </a>
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=cky2662)](https://solved.ac/cky2662/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=cky2662)](https://solved.ac/cky2662)
 
 <img src="https://github.com/KyeongYeongDEV/KyeongYeongDEV/blob/output/github-snake-dark.svg" width="100%">
 
