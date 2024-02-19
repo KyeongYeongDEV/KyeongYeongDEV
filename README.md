@@ -6,11 +6,10 @@
 
 
 <span>
-  <a href="https://www.instagram.com/cccgangg/">
-    <img src="https://img.shields.io/badge/C++-00599C?style=plastic&logo=C++&logoColor=blue"/>
-    
+  <a href="https://www.instagram.com/cccgangg/">    
     <img src="https://img.shields.io/badge/Instagram-ff69b4?style=plastic&logo=Instagram&logoColor=white"/>
   </a>
+  <img src="https://img.shields.io/badge/C++-00599C?style=plastic&logo=C++&logoColor=blue"/>
 </span>
 
 
