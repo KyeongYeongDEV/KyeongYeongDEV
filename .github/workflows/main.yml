@@ -1,33 +1,17 @@
-name: generate animation
+name: GitHub-Profile-3D-Contrib
 on:
-  schedule:
-    - cron: "0 */24 * * *" 
-  workflow_dispatch:
-  push:
-    branches:
-    - master
-    
+schedule: # 03:00 JST == 18:00 UTC
+- cron: "0 18 * * *" workflow_dispatch:
 jobs:
-  generate:
-    permissions: 
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
-    steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: KyeongYeongDEV
-          outputs: |
-             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+build:
+runs-on: ubuntu-latest name: generate-github-profile-3d-contrib steps:
+- uses: actions/checkout@v4
+- uses: yoshi389111/github-profile-3d-contrib@.7.1 env:
+GITHUB_TOKEN: ${{ secrets. README }} USERNAME: ${{ github.repository_owner }}
+- name: Commit & Push
+run: |
+git config user.name Jade-Good git config user.email kangsm423@gmail.com
+git remote set-url origin https://github.com/KyeongYeongDEV
+git add -A -
+git commit -m "generated"
+git push https://$GITHUB_TOKEN@github.com/Jade-Good/Jade_Good-git
